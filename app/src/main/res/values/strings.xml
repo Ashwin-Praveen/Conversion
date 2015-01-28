@@ -5,5 +5,16 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="convert_from">Convert From</string>
+    <string name="default_teaspoon">1.0 Teaspoon</string>
+    <string name="default_tbs">.3333 tbs</string>
+    <string name="default_oz">.1666 oz</string>
+    <string name="default_kg">.0057 kg</string>
+    <string name="default_quart">.0052 quart</string>
+    <string name="default_gallon">.0013 gallon</string>
+    <string name="default_pound">.0125 pound</string>
+    <string name="default_ml">4.9289 ml</string>
+    <string name="default_lt">.0049 lt</string>
+    <string name="default_mg">5687.5000 mg</string>
+    <string name="default_pint">.0104 pint</string>
 
 </resources>

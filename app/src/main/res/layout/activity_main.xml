@@ -20,8 +20,120 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/amount"
         android:layout_alignTop="@+id/textView"
+        android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:text="1.0"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/unit_type_spinner"
+        android:layout_below="@+id/amount"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/unit_type_spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:columnCount="2"
+        android:rowCount="6"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:background="#ffcfedff">
+
+        <TextView
+            android:id="@+id/tea_spoon"
+            android:text="@string/default_teaspoon"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:gravity="left|top"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"/>
+        <TextView
+            android:id="@+id/cup"
+            android:text="0.0208 Cup"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="left|top"
+
+            />
+        <TextView
+            android:id="@+id/table_spoon"
+            android:text="@string/default_tbs"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:gravity="left|top"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"/>
+        <TextView
+            android:id="@+id/oz"
+            android:text="@string/default_oz"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="left|top"
+
+            />    <TextView
+        android:id="@+id/kilo"
+        android:text="@string/default_kg"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:gravity="left|top"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"/>
+        <TextView
+            android:id="@+id/quart"
+            android:text="@string/default_quart"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="left|top"
+
+            />    <TextView
+        android:id="@+id/gallon"
+        android:text="@string/default_gallon"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:gravity="left|top"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"/>
+        <TextView
+            android:id="@+id/pound"
+            android:text="@string/default_pound"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="left|top"
+
+            />    <TextView
+        android:id="@+id/ml"
+        android:text="@string/default_ml"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:gravity="left|top"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"/>
+        <TextView
+            android:id="@+id/litre"
+            android:text="@string/default_lt"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="left|top"
+
+            />    <TextView
+        android:id="@+id/mg"
+        android:text="@string/default_mg"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:gravity="left|top"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"/>
+        <TextView
+            android:id="@+id/pint"
+            android:text="@string/default_pint"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="left|top"
+
+            />
+
+        </GridLayout>
+
 </RelativeLayout>
