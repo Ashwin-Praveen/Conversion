@@ -113,7 +113,7 @@
         android:layout_marginRight="30dp"
         android:layout_marginBottom="30dp"/>
         <TextView
-            android:id="@+id/litre"
+            android:id="@+id/liter"
             android:text="@string/default_lt"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:gravity="left|top"
