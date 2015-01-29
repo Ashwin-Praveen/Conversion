@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
-        android:ems="10"
+        android:ems="7"
         android:id="@+id/amount"
         android:layout_alignTop="@+id/textView"
         android:layout_alignParentTop="true"
@@ -29,23 +29,24 @@
 
     <Spinner
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:id="@+id/unit_type_spinner"
         android:layout_below="@+id/amount"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:background="#ffc5c5c5" />
 
     <GridLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@+id/unit_type_spinner"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_height="340dp"
         android:columnCount="2"
         android:rowCount="6"
         android:orientation="horizontal"
         android:padding="15dp"
-        android:background="#ffcfedff">
+        android:background="#ffcfedff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <TextView
             android:id="@+id/tea_spoon"
